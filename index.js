@@ -35,26 +35,7 @@ class SortedList {
 
   }
 
-  // sum() {
-  //   let sumTotal = 0;
-  //   this.items.forEach((eachNum)=>{
-  //     sumTotal += eachNum
-  //   })
-  //   return sumTotal
-  // }
-
-  // avg() {
-  //   if(this.items.length === 0){
-  //     throw new Error("EmptySortedList");
-  //   }
-  //   let sumTotal = 0;
-  //   this.items.forEach((eachNum)=>{
-  //     sumTotal += eachNum
-  //   })
-
-  //   let average = sumTotal / this.items.length
-  //   return average
-  // }
+  
   sum() {
     return this.items.reduce((acc, cur) => acc + cur, 0);
   }
